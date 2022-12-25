@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+html {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#7f7fff, #b2ffff);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* login */
+
+
+.title {
+  font-size: 18px;
+  text-align: center;
+}
+
+.form {
+  border: solid 1px;
+  width: 30%;
+  min-width: 300px;
+  padding: 60px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form_item {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.form_item input {
+  width: 90%;
+  height: 25px;
+  margin-top: 10px;
+  background-color: gainsboro;
+  border: solid 1px;
+}
+
+.form_button {
+  margin-left: 70%;
+  margin-top: 35px;
+}
+
+.form_button input {
+  width: 80px;
+  height: 30px;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+
+p:last-child {
+  margin-left: 30px;
+  margin-top: 35px;
+}
+
+table {
+  margin-left: 30px;
+}

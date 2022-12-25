@@ -14,11 +14,11 @@
 Route::namespace('Auth')->group(function(){
     Route::namespace('Login')->group(function(){
         Route::get('/login','LoginController@login')->name('login');
-        Route::post('/login','LoginController@CheckLogin');
+        Route::post('/login','LoginController@checkLogin');
     });
     Route::namespace('Register')->group(function(){
-        Route::get('/register','RegisterController@register');
-        Route::post('/confirm','RegisterConfirmController@confirm');
+        Route::get('/register','RegisterController');
+        Route::post('/confirm','RegisterConfirmController');
         Route::post('/added','RegisterAddedController@added');
     });
 });
