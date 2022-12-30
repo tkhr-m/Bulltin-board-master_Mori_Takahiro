@@ -7,6 +7,7 @@
   <p class='title'>以下の内容で登録します。よろしいですか？</p>
   <div>
     <form action='/added' method='post'>
+      @csrf
       <table>
         <tr>
           <th>ユーザー名</th>
